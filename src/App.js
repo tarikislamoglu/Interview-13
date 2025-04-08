@@ -47,10 +47,7 @@ function App() {
 
       setOperations([]);
       setNum(0);
-
-      if (result) {
-        setBeforeResult(result);
-      }
+      setBeforeResult(num);
       setResult(currentValue);
     }
   };
